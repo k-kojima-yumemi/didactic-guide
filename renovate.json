@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":disableDependencyDashboard",
+    ":prConcurrentLimit10",
+    ":prHourlyLimitNone",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "packageRules": [
+    {
+      "groupName": "GitHub Actions",
+      "groupSlug": "gh-actions",
+      "matchManagers": [
+        "github-actions"
+      ]
+    }
+  ]
+}
