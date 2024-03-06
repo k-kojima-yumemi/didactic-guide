@@ -3,7 +3,6 @@
 
 provider "registry.terraform.io/hashicorp/archive" {
   version     = "2.3.0"
-  constraints = "~> 2.3.0"
   hashes = [
     "h1:NaDbOqAcA9d8DiAS5/6+5smXwN3/+twJGb3QRiz6pNw=",
     "zh:0869128d13abe12b297b0cd13b8767f10d6bf047f5afc4215615aabc39c2eb4f",
