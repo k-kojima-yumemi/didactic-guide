@@ -13,6 +13,6 @@ terraform {
 }
 
 module "arr" {
-    source = "./modules/ac"
-    test = "value"
+  source = "./modules/ac"
+  test   = "value"
 }
