@@ -5,7 +5,8 @@
     ":disableDependencyDashboard",
     ":prConcurrentLimit10",
     ":prHourlyLimitNone",
-    ":timezone(Asia/Tokyo)"
+    ":timezone(Asia/Tokyo)",
+    ":automergeMinor"
   ],
   "packageRules": [
     {
